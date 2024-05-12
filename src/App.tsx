@@ -3,6 +3,7 @@ import ReactStateCounter from "./approaches/ReactStateCounter";
 import ReactContextCounter from "./approaches/ReactContextCounter";
 import ReduxLegacyCounter from "./approaches/ReduxLegacyCounter";
 import ReduxMimicCounter from "./approaches/ReduxMimicCounter";
+import ReduxSliceCounter from "./approaches/ReduxSliceCounter";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ReactContextCounter />
       <ReduxLegacyCounter />
       <ReduxMimicCounter />
+      <ReduxSliceCounter />
     </div>
   );
 }
