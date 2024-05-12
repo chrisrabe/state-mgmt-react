@@ -2,6 +2,7 @@ import React from 'react';
 import ReactStateCounter from "./approaches/ReactStateCounter";
 import ReactContextCounter from "./approaches/ReactContextCounter";
 import ReduxLegacyCounter from "./approaches/ReduxLegacyCounter";
+import ReduxMimicCounter from "./approaches/ReduxMimicCounter";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <ReactStateCounter />
       <ReactContextCounter />
       <ReduxLegacyCounter />
+      <ReduxMimicCounter />
     </div>
   );
 }
