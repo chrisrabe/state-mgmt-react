@@ -6,6 +6,7 @@ import ReduxMimicCounter from "./approaches/ReduxMimicCounter";
 import ReduxSliceCounter from "./approaches/ReduxSliceCounter";
 import ZustandCounter from "./approaches/ZustandCounter";
 import JotaiCounter from "./approaches/JotaiCounter";
+import RecoilCounter from "./approaches/RecoilCounter";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ReduxSliceCounter />
       <ZustandCounter />
       <JotaiCounter />
+      <RecoilCounter />
     </div>
   );
 }
