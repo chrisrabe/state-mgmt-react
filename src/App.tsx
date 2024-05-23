@@ -16,9 +16,9 @@ function App() {
       <ReactContextCounter />
       <ReduxMimicCounter />
       <ReduxSliceCounter />
+      <ZustandCounter />
       <RecoilCounter />
       <JotaiCounter />
-      <ZustandCounter />
     </div>
   );
 }
